@@ -1,0 +1,23 @@
+// Exemplo de comentario
+
+int x = 10;
+float y = 20.5;
+double z;
+
+char c = 'a';
+boolean flag = true;
+
+/* Esta é uma função de exemplo */
+int soma(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    x = soma(x, 5);
+    if (x > 10) {
+        y = y + 1.0;
+    } else {
+        y = y - 1.0;
+    }
+    return 0;
+}
